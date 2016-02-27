@@ -30,3 +30,4 @@ set background=dark
 ""colorscheme solarized
 colorscheme molokai
 
+au BufNewFile,BufRead *.tt set filetype=html
