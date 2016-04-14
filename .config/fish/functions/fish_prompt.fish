@@ -69,4 +69,6 @@ function fish_prompt
 
   # echo -n -s $arrow ' '$cwd $repo_info $normal ' '
   echo -n -s $cwd $repo_info $normal ' ' $arrow ' '
+  
+  export PKG_PATH=ftp://mirror.meerval.net/pub/OpenBSD/`uname -r`/packages/
 end
